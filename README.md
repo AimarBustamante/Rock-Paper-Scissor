@@ -6,9 +6,8 @@
 
 ### Links
 
-- Solution: https://www.frontendmentor.io/solutions/easybank-landing-page-y5fvB-Owio
-- Live Site: https://aimarbustamante.github.io/easybank-landing-page-master/
-
+- Solution: https://www.frontendmentor.io/solutions/rock-paper-scissor-challenga-26N7eLRzmA
+- Live Site: https://aimarbustamante.github.io/Rock-Paper-Scissor/
 ## My process
 
 ### Built with
