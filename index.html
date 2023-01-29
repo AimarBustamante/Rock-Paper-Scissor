@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Primary Meta Tags -->
+  <title>Rock, Paper, Scissors</title>
+  <meta name="title" content="Rock, Paper, Scissors">
+  <meta name="description" content="Frontend Mentor challenge that simulates a rock, paper, scissors game">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Rock, Paper, Scissors">
+  <meta property="og:description" content="Frontend Mentor challenge that simulates a rock, paper, scissors game">
+  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Rock, Paper, Scissors">
+  <meta property="twitter:description" content="Frontend Mentor challenge that simulates a rock, paper, scissors game">
+  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JS -->
+  <script defer src="js/script.js"></script>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body class="preload">
+
+  <div class="container">
+
+    <!-- ** ----- Header ----- ** -->
+
+    <header class="header">
+      <img src="images/logo.svg" alt="logo" class="logo">
+
+      <div class="score">
+        <div class="score__title">score</div>
+        <div class="score__number">0</div>
+      </div>
+
+    </header>
+
+    <!-- ** ---- Game ---- ** -->
+
+    <section class="game">
+
+      <button class="choice-btn" data-choice="paper">
+        <div class="choice paper">
+          <img src="images/icon-paper.svg" alt="paper" class="choice__img">
+        </div>
+      </button>
+      
+      <button class="choice-btn" data-choice="scissors">
+        <div class="choice scissors">
+          <img src="images/icon-scissors.svg" alt="scissors" class="choice__img">
+        </div>
+      </button>
+      
+      <button class="choice-btn" data-choice="rock">
+        <div class="choice rock">
+          <img src="images/icon-rock.svg" alt="rock" class="choice__img">
+        </div>
+      </button>
+
+    </section>
+
+  </div>
+
+  <!-- ** ---- Results ---- ** -->
+
+  <section class="results hidden">
+
+    <p class="results__heading">you picked</p>
+    <p class="results__heading">the house picked</p>
+
+    <div class="results__result"></div>
+
+    <div class="results__winner hidden">
+      <p class="results__text"></p>
+      <button class="play__again">play again</button>
+    </div>
+
+    <div class="results__result"></div>
+
+  </section>
+  
+  <!-- ** ---- Rules-btn ---- ** -->
+
+  <button class="rules__btn" tabindex="1">rules</button>
+
+  <!-- ** ---- Rules Modal ---- ** -->
+  
+  <div class="modal">
+  
+    <div class="modal__container">
+  
+      <div class="modal__header">
+  
+        <h2 class="modal__heading">rules</h2>
+        <button class="close__btn">
+          <img src="images/icon-close.svg" alt="close button">
+        </button>
+  
+      </div>
+  
+      <img src="images/image-rules.svg" alt="rules image" class="rules__img">
+  
+    </div>
+  
+  </div>
+
+  <!-- ** ----- Footer ----- ** -->
+
+  <footer class="footer">
+
+    <section class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" class="attribution__link">Frontend Mentor</a>. 
+      </p>
+      <p>
+        Coded by <a href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer" class="attribution__link">Aimar Bustamante</a>.
+      </p>
+    </section>
+  
+  </footer>
+
+</body>
+</html>
