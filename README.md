@@ -2,7 +2,7 @@
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 👋🏻
 
 ### Brief
 
